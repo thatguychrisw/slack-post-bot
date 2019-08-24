@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc && netlify-lambda build dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node ./src/server-local.ts"
+    "dev": "ts-node server-local.ts"
   },
   "keywords": [],
   "author": "",
