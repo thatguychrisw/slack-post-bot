@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "node dist/server.js",
-    "build": "netlify-lambda build dist",
+    "build": "tsc && netlify-lambda build dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node ./src/server.ts"
   },
