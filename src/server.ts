@@ -10,5 +10,6 @@ router.get('/', (request, response) => {
 
 app.use('/.netlify/functions/server', router);
 
-module.exports = app;
-module.exports.handler = serverless(app);
+export default app;
+export const handler = serverless(app);
+
