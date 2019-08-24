@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && netlify-lambda build dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node server-local.ts"
+    "dev": "ts-node server-local.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "@types/express": "^4.17.1",
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
+    "supertest": "^4.0.2",
     "ts-jest": "^24.0.2"
   }
 }
