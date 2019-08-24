@@ -1,9 +1,14 @@
 import express from 'express';
+import serverless from 'serverless-http';
 
 const app = express();
+const router = express.Router();
 
-app.get('/', (request, response) => {
+router.get('/', (request, response) => {
     response.send('Hello world!');
 });
 
-app.listen(80);
+app.use('/.netlify/functions/server', router);
+
+module.exports = app;
+module.exports.handler = serverless(app);
