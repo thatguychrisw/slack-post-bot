@@ -9,6 +9,7 @@ router.all('/nf-test', (request, response) => response.json({
 }));
 
 app.use('/.netlify/functions/server', router);
+app.use('/', router);
 
 export default app;
 export const handler = serverless(app);
