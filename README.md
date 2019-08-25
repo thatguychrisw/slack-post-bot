@@ -1,11 +1,16 @@
-# Slack Post Bot
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6505aed6-9dd4-4714-a5bd-7d771ee1f20b/deploy-status)](https://app.netlify.com/sites/slack-post-bot/deploys)
+# Netlify Serverless Express API
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thatguychrisw/netlify-serverless-express-api)
 
-## Development
-...
+This boilerplate can be used to quickly spin up a serverless, express API leveraging Netlify Functions.   
 
-### Run Tests
-...
+## Included
+- Express
+- Jest w/ Supertest
 
-## Usage
-...
+## Routing
+Netlify managed lambda functions are exposed normally at the route, `/.netlify/functions/{function name}`.  To improve the developer experience, requests are rewritten to clean up the base path.  This allows clients to access endpoints via `{site name}.netlify.com/{endpoint}` instead of `{site-name}.netlify.com/.netlify/functions/{function name}/{endpoint}`.
+
+## Commands
+- Bring up a developer environment: `npm run dev`
+- Run test suite: `npm t` or `npm test`
+
