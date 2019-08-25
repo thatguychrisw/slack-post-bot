@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && netlify-lambda build api",
-    "dev": "ts-node server-local.ts",
+    "dev": "ts-node app-local.ts",
     "test": "jest"
   },
   "keywords": [],
