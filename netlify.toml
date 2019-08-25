@@ -4,4 +4,5 @@
 
  [[redirects]]
    from = "/*"
-   to = "/.netlify/functions/server/:splat"
+   to = "https://slack.christopherwillard.com/.netlify/functions/server/:splat"
+   status = 200
