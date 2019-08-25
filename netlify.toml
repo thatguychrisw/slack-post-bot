@@ -3,6 +3,6 @@
   functions = "functions"
 
  [[redirects]]
-   from = "/*"
-   to = "/.netlify/functions/server/:splat"
+   from = "/nf-test"
+   to = "/.netlify/functions/server/nf-test"
    status = 200
