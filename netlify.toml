@@ -4,5 +4,5 @@
 
  [[redirects]]
    from = "/*"
-   to = "/.netlify/functions/server/:splat"
+   to = "/.netlify/functions/api/:splat"
    status = 200

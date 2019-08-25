@@ -1,8 +1,6 @@
 import request from 'supertest'
-import app from '../src/server'
+import app from '../src/app'
 
-describe('Slack Command — /nf-test', () => {
-    test('it responds with a 200 on post', () => {
-        return request(app).post('/nf-test').expect(200);
-    });
+test('it responds successfully to GET /hello-world', () => {
+    return request(app).get('/hello-world').expect(200);
 });

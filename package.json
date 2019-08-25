@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && netlify-lambda build dist",
+    "build": "tsc && netlify-lambda build api",
     "dev": "ts-node server-local.ts",
     "test": "jest"
   },

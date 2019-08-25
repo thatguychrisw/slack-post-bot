@@ -7,7 +7,7 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "target": "es6",
-    "outDir": "./dist",
+    "outDir": "./api",
     "baseUrl": "./src",
     "paths": {
       "*": [

@@ -1,3 +1,3 @@
-import server from './src/server';
+import app from './src/app';
 
-server.listen(80, () => console.log('local server up on port 80'));
+app.listen(80, () => console.log('local server up on port 80'));
