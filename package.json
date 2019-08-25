@@ -12,12 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parse": "latest",
     "express": "^4.17.1",
+    "express-urlrewrite": "^1.2.0",
     "netlify-lambda": "^1.6.3",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3",
     "serverless-http": "latest",
-    "body-parse": "latest"
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
