@@ -3,8 +3,8 @@ import serverless from 'serverless-http';
 
 const app = express();
 
-app.post('/', (request, response) => {
-    response.send('Hello world!');
+app.post('/nf-test', (request, response) => {
+    response.send('💙 Netlify Functions!');
 });
 
 
