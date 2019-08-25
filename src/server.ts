@@ -8,7 +8,7 @@ router.get('/', (request, response) => {
     response.send('Hello world!');
 });
 
-app.use('/.netlify/functions/server', router);
+app.use('/', router);
 
 export default app;
 export const handler = serverless(app);
