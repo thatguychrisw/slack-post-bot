@@ -3,7 +3,7 @@ import serverless from 'serverless-http';
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.post('/', (request, response) => {
     response.send('Hello world!');
 });
 
