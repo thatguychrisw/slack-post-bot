@@ -4,7 +4,7 @@ import serverless from 'serverless-http';
 const app = express();
 const router = express.Router();
 
-router.get('/nf-test', (request, response) => {
+router.all('/nf-test', (request, response) => {
     response.send('💙 Netlify Functions!');
 });
 
