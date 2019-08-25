@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.all('/nf-test', (request, response) => {
     response.json({
-        'text': '💙 Netlify Functions!',
+        text: '💙 Netlify Functions!',
     });
 });
 
